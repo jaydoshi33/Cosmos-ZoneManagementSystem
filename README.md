@@ -19,8 +19,14 @@ This project is funded by the National Science Foundation(NSF), and being develo
 ![Create new SCM-2](./ss/Screenshot%202025-09-19%20155906.png)
 ![Create new SCM-3](./ss/Screenshot%202025-09-19%20155926.png)
 ![Create new SCM-4](./ss/Screenshot%202025-09-19%20155954.png)
+
+### Search and filter SCMs based on the user defined criteria
 ![Search and Filter SCMs](./ss/Screenshot%202025-09-19%20154347.png)
+
+### Interference Alarm Dashboard(triggers when compatibility test fails)
 ![Interference Alarm Dashboard](./ss/Screenshot%202025-09-19%20160106.png)
+
+### Search SCMs to add to the Compatibility Test List
 ![Search SCMs to add to the Compatibility Test List](./ss/Screenshot%202025-09-19%20154621.png)
 
 ## Project Structure
