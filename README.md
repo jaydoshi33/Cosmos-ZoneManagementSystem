@@ -1,8 +1,8 @@
 # COSMOS ZMS (Zone Management System)
 
-A comprehensive Zone Management System designed for efficient supply chain management and monitoring. This project consists of a modern React-based frontend and a Python-based backend API for processing SCM (Supply Chain Management) data.
+A comprehensive Zone Management System designed for efficient advancing spectrum sharing and monitoring in NYC/Manhattan. This project consists of a modern React-based frontend and a Python-based backend API for processing SCM (Spectrum Consumption Model) data.
 
-This project is funded by the National Science Foundation(NSF), and being developed in collaboration with Syracuse University, Columbia University, Rutgers University, Princeton University and the NOAA.
+#### This project is funded by the National Science Foundation(NSF), and being developed in collaboration with Syracuse University, Columbia University, Rutgers University, Princeton University and the NOAA.
 
 ## Project UI
 ### Home Page
