@@ -5,7 +5,23 @@ A comprehensive Zone Management System designed for efficient supply chain manag
 This project is funded by the National Science Foundation(NSF), and being developed in collaboration with Syracuse University, Columbia University, Rutgers University, Princeton University and the NOAA.
 
 ## Project UI
+### Home Page
 ![Home Page](./ss/Screenshot%202025-09-19%20154219.png)
+
+### Functionalities of the ZMS
+![Functionalities of the ZMS](./ss/Screenshot%202025-09-19%20154706.png)
+
+### Upload new Spectrum Consumption Model XML
+![Upload new Spectrum Consumption Model XML](./ss/Screenshot%202025-09-19%20154258.png)
+
+### SCM Creation from UI
+![Create new SCM-1](./ss/Screenshot%202025-09-19%20155714.png)
+![Create new SCM-2](./ss/Screenshot%202025-09-19%20155906.png)
+![Create new SCM-3](./ss/Screenshot%202025-09-19%20155926.png)
+![Create new SCM-4](./ss/Screenshot%202025-09-19%20155954.png)
+![Search and Filter SCMs](./ss/Screenshot%202025-09-19%20154347.png)
+![Interference Alarm Dashboard](./ss/Screenshot%202025-09-19%20160106.png)
+![Search SCMs to add to the Compatibility Test List](./ss/Screenshot%202025-09-19%20154621.png)
 
 ## Project Structure
 
