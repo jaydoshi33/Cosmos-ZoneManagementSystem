@@ -2,6 +2,10 @@
 
 A comprehensive Zone Management System designed for efficient supply chain management and monitoring. This project consists of a modern React-based frontend and a Python-based backend API for processing SCM (Supply Chain Management) data.
 
+This project is funded by the National Science Foundation(NSF), and being developed in collaboration with Syracuse University, Columbia University, Rutgers University, Princeton University and the NOAA.
+
+## Project UI
+
 ## Project Structure
 
 ```
@@ -16,7 +20,6 @@ A comprehensive Zone Management System designed for efficient supply chain manag
 │   └── cosmoszms/        # COSMOS ZMS React application
 │       ├── public/       # Static files
 │       └── src/          # React source code
-├── api_generated_scms/   # Generated SCM API files
 ├── k8s/                  # Kubernetes configuration files
 └── scm_api_files/        # SCM API definition files
 ```
@@ -82,14 +85,6 @@ A comprehensive Zone Management System designed for efficient supply chain manag
    ```
    The application will be available at `http://localhost:3000`
 
-## API Endpoints
-
-The SCM API provides the following key endpoints:
-
-- `POST /v2/ngscope/process` - Process ngScope JSON data
-- `POST /v2/scm/trigger` - Upload and process SCM XML files
-- `POST /v2/canonical/ingest` - Ingest data in canonical format
-- `GET /health` - Service health check
 
 ## Deployment
 
@@ -122,15 +117,6 @@ Kubernetes deployment configurations are available in the `k8s/` directory.
 - Axios (for API calls)
 - Recharts (for data visualization)
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
