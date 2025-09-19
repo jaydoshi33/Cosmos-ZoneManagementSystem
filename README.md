@@ -1,10 +1,10 @@
-# COSMOS ZMS (Zone Management System)
+# 🛜 COSMOS ZMS (Zone Management System)
 
-A comprehensive Zone Management System designed for efficient advancing spectrum sharing and monitoring in NYC/Manhattan. This project consists of a modern React-based frontend and a Python-based backend API for processing SCM (Spectrum Consumption Model) data.
+A comprehensive Zone Management System designed for advancing efficient spectrum sharing and monitoring in NYC/Manhattan. This project consists of a modern React-based frontend and a Python-based backend API for processing SCM (Spectrum Consumption Model) data.
 
-#### This project is funded by the National Science Foundation(NSF), and being developed in collaboration with Syracuse University, Columbia University, Rutgers University, Princeton University and the NOAA.
+💰 This project is funded by the National Science Foundation(NSF), and being developed in collaboration with **Columbia University**, **Princeton University**, **Syracuse University**, **Rutgers University** and the **NOAA**.
 
-## Project UI
+## 💻 Project UI
 ### Home Page
 ![Home Page](./ss/Screenshot%202025-09-19%20154219.png)
 
@@ -29,7 +29,7 @@ A comprehensive Zone Management System designed for efficient advancing spectrum
 ### Search SCMs to add to the Compatibility Test List
 ![Search SCMs to add to the Compatibility Test List](./ss/Screenshot%202025-09-19%20154621.png)
 
-## Project Structure
+## 📋 Project Structure
 
 ```
 .
@@ -47,7 +47,7 @@ A comprehensive Zone Management System designed for efficient advancing spectrum
 └── scm_api_files/        # SCM API definition files
 ```
 
-## Prerequisites
+## ✅ Prerequisites
 
 - Python 3.8+
 - Node.js 16+
@@ -58,91 +58,30 @@ A comprehensive Zone Management System designed for efficient advancing spectrum
 
 ### Backend Setup
 
-1. Navigate to the SCM-Processing directory:
-   ```bash
-   cd SCM-Processing
-   ```
-
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: .\venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Set up environment variables:
-   ```bash
-   cp .env.example .env
-   # Edit .env with your database credentials
-   ```
-
-5. Initialize the database:
-   ```bash
-   python setup_database.py
-   ```
-
-6. Start the SCM API server:
-   ```bash
-   uvicorn scmapi:app --reload --host 0.0.0.0 --port 8000
-   ```
+1. Backend code is inside the SCM-Processing directory. It contains a dockerfile to run it as a container in an isolated environment.
+2. The required libraries will be dynamically installed. The kubernetes manifest takes care of configuring database access.
+3. Ingress takes care of request routing to the service responsible.
+4. Persistent volumes are created on the cluster, which are backed by a shared NFS volume.
 
 ### Frontend Setup
 
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend-app/cosmoszms/frontend
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm start
-   ```
-   The application will be available at `http://localhost:3000`
+1. Frontend application is deployed as a separate container on the cluster.
+2. The frontend app sends request to the backend, and ingress routes the request to the appropriate service.
 
 
-## Deployment
+## 🛠️ Technologies Used
 
-### Docker
-
-You can deploy the application using Docker Compose:
-
-```bash
-docker-compose up --build
-```
-
-### Kubernetes
-
-Kubernetes deployment configurations are available in the `k8s/` directory.
-
-## Technologies Used
-
-### Backend
+### 🗄️ Backend
 - Python 3.8+
 - FastAPI
 - SQLAlchemy
 - PostgreSQL
 - Uvicorn
 
-### Frontend
+### 💻 Frontend
 - React 19
 - TypeScript
 - Material-UI (MUI)
 - Redux (for state management)
 - Axios (for API calls)
 - Recharts (for data visualization)
-
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-For support, please open an issue in the GitHub repository.
