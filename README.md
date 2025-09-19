@@ -5,6 +5,7 @@ A comprehensive Zone Management System designed for efficient supply chain manag
 This project is funded by the National Science Foundation(NSF), and being developed in collaboration with Syracuse University, Columbia University, Rutgers University, Princeton University and the NOAA.
 
 ## Project UI
+![Home Page](./ss/Screenshot%202025-09-19%20154219.png)
 
 ## Project Structure
 
