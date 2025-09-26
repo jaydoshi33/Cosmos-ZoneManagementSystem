@@ -4,6 +4,9 @@ A comprehensive Zone Management System designed for advancing efficient spectrum
 
 💰 This project is funded by the National Science Foundation(NSF), and being developed in collaboration with **Columbia University**, **Princeton University**, **Syracuse University**, **Rutgers University** and the **NOAA**.
 
+## Database Schema
+![Database schema](./ss/Blank%20diagram.png)
+
 ## 💻 Project UI
 ### Home Page
 ![Home Page](./ss/Screenshot%202025-09-19%20154219.png)
